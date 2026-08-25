@@ -1,0 +1,17 @@
+{
+  "name": "mysql-vercel-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --check api/health.js && node --check api/[...path].js",
+    "dev": "vercel dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "mysql2": "^3.24.2"
+  }
+}
